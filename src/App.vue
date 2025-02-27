@@ -4,7 +4,7 @@
       :navItems="navItems"
       :headerColor="'bg-blue-600'"
       :headerTextColor="'text-white'"
-      headerTitle="[BH] Web Design"
+      headerTitle="IRRELEVANT CLOTHING"
     />
     <transition name="fade">
       <router-view v-if="isVisible" />
