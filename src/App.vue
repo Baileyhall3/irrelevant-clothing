@@ -2,8 +2,6 @@
   <div className="min-h-screen bg-gray-100">
     <Header
       :navItems="navItems"
-      :headerColor="'bg-blue-600'"
-      :headerTextColor="'text-white'"
       headerTitle="IRRELEVANT CLOTHING"
     />
     <transition name="fade">

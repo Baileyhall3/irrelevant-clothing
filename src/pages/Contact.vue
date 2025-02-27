@@ -116,7 +116,7 @@ import emailjs from '@emailjs/browser';
 
 // SEO
 useHead({
-  title: 'Contact Us - Freelance Web Pro',
+  title: 'Contact Us - Irrelevant Clothing',
   meta: [
     {
       name: 'description',

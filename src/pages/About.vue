@@ -38,7 +38,7 @@ import SearchBar from '../components/UI/SearchBar.vue';
 
 // SEO optimization
 useHead({
-  title: 'About Us - Freelance Web Pro',
+  title: 'About Us - Irrelevant Clothing',
   meta: [
     {
       name: 'description',

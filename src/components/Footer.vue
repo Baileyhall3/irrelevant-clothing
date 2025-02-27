@@ -1,11 +1,17 @@
 <template>
-    <footer id="contact" className="w-full bg-blue-600 text-white py-6 text-center">
-        <h3 className="text-2xl font-bold">Get in Touch</h3>
-        <p className="text-gray-200">Have a project in mind? 
-            <router-link to="/contact" class="font-bold">
-              Let's talk.
-            </router-link>
-        </p>
-        <!-- <a href="mailto:baileyhall271001@gmail.com" className="underline mt-2 block">baileyhall271001@gmail.com</a> -->
+    <footer class="w-full bg-white text-gray-900 py-6 text-center border-t mt-10">
+        <h3 class="text-2xl font-bold">Irrelevant Clothing</h3>
+        <div class="mt-4 space-y-2">
+            <router-link to="/about" class="block hover:underline">About Us</router-link>
+            <router-link to="/contact" class="block hover:underline">Contact</router-link>
+        </div>
+        <div class="mt-4 flex justify-center space-x-4">
+            <a href="#" class="text-gray-700 hover:text-gray-900">
+                <i class="fab fa-instagram text-2xl"></i>
+            </a>
+            <a href="#" class="text-gray-700 hover:text-gray-900">
+                <i class="fab fa-facebook text-2xl"></i>
+            </a>
+        </div>
     </footer>
 </template>

@@ -1,13 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../pages/Home.vue';
 import About from '../pages/About.vue';
-import Products from '../pages/Products.vue';
-import Services from '../pages/Services.vue';
-import StarterSites from '../pages/services/StarterSites.vue';
-import Ecommerce from '../pages/services/Ecommerce.vue';
-import SEO from '../pages/services/SEO.vue';
-import Consulting from '../pages/services/Consulting.vue';
 import Contact from '../pages/Contact.vue';
+
+import Shirts from '../pages/categories/Shirts.vue';
+import Sweats from '../pages/categories/Sweats.vue';
+import Accessories from '../pages/categories/Accessories.vue';
 
 const router = createRouter({
   history: createWebHistory(),
@@ -17,7 +15,7 @@ const router = createRouter({
       name: 'Home',
       component: Home,
       meta: {
-        title: 'Freelance Web Pro - Professional Web Development Services'
+        title: 'Irrelevant Clothing'
       }
     },
     {
@@ -29,51 +27,25 @@ const router = createRouter({
       }
     },
     {
-      path: '/products',
-      name: 'Products',
-      component: Products,
+      path: '/shirts',
+      name: 'T-Shirts',
+      component: Shirts,
       meta: {
-        title: 'Web Development Products - Freelance Web Pro'
+        title: 'T-Shirts - Irrelevant Clothing'
       }
     },
     {
-      path: '/products/starter-sites',
-      name: 'Starter Sites',
-      component: StarterSites,
+      path: '/sweats',
+      component: Sweats,
       meta: {
-        title: 'Starter Sites - Freelance Web Pro'
+        title: 'Sweatshirts - Irrelevant Clothing'
       }
     },
     {
-      path: '/products/e-commerce-sites',
-      name: 'E-Commerce Sites',
-      component: Ecommerce,
+      path: '/accessories',
+      component: Accessories,
       meta: {
-        title: 'E-Commerce Sites - Freelance Web Pro'
-      }
-    },
-    {
-      path: '/services',
-      name: 'Services',
-      component: Services,
-      meta: {
-        title: 'Web Development Services - Freelance Web Pro'
-      }
-    },
-    {
-      path: '/services/SEO',
-      name: 'SEO',
-      component: SEO,
-      meta: {
-        title: 'SEO Service - Freelance Web Pro'
-      }
-    },
-    {
-      path: '/services/consulting',
-      name: 'Consulting',
-      component: Consulting,
-      meta: {
-        title: 'Consulting - Freelance Web Pro'
+        title: 'Accessories - Irrelevant Clothing'
       }
     },
     {
